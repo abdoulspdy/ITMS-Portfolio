@@ -65,12 +65,12 @@ export default function HomeIndex() {
   };
 
   const brands = [
-    "/brand1.png",
-    "/brand2.png",
-    "/brand3.png",
-    "/brand4.png",
-    "/brand5.png",
-    "/brand6.png",
+    "/Brand1.png",
+    "/Brand2.png",
+    "/Brand3.png",
+    "/Brand4.png",
+    "/Brand5.png",
+    "/Brand6.png",
   ]
 
   // 2. Define the plugin configuration
@@ -205,10 +205,7 @@ export default function HomeIndex() {
               </div>
 
               <div className="space-y-4 text-center md:text-left w-full">
-                {/* CHANGE 2: Font Style
-         - Added 'premium-funky-text' class
-         - Removed standard font classes that might conflict (like font-bold) if using the custom CSS
-      */}
+
                 <h1 className="premium-funky-text text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tighter">
                   {t("title")}
                 </h1>
