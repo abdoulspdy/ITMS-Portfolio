@@ -1,0 +1,96 @@
+/* InteractiveGrid.css */
+@import url('https://unpkg.com/normalize.css') layer(normalize);
+
+@layer normalize, base, demo, mobile;
+
+/* Mobile Touch Logic */
+@layer mobile {
+    .grid-container .grid div[data-hover="true"] {
+        transition-property: opacity, rotate, filter;
+        transition-duration: 0s;
+        rotate: calc(var(--grade, 0) * 90deg);
+        filter: grayscale(0) brightness(1.5);
+        opacity: 1;
+    }
+}
+
+@layer demo {
+    .fluid-heading {
+        --font-level: 5;
+        translate: 12px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .grid-container .grid {
+        touch-action: none;
+        display: grid;
+        grid-template-columns: repeat(var(--cols, 20), 1fr);
+        grid-template-rows: repeat(var(--rows, 10), 1fr);
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        cursor: none;
+    }
+
+    .grid-container .grid div {
+        touch-action: none;
+        padding: 2px;
+        opacity: calc(var(--opacity) * 0.5);
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        transition-property: opacity, rotate, filter;
+        transition-duration: 0.8s, 0.4s, 0.6s;
+        transition-timing-function: ease-in, ease-out, ease-out;
+        scale: 1.5;
+        filter: grayscale(1);
+        color: hsl(var(--hue) 80% 50%);
+    }
+
+    /* Dark Mode Adjustments */
+    @media (prefers-color-scheme: dark) {
+        .grid-container .grid div {
+            opacity: calc(var(--opacity) + 0.2);
+        }
+    }
+
+    /* Desktop Hover Effects */
+    @media (hover: hover) and (pointer: fine) {
+        .grid-container .grid div:hover {
+            transition-property: opacity, rotate, filter;
+            transition-duration: 0s;
+            rotate: calc(var(--grade, 0) * 90deg);
+            filter: grayscale(0) brightness(1.5);
+            opacity: 1;
+        }
+    }
+}
+
+@layer base {
+    :root {
+        --font-size-min: 16;
+        --font-size-max: 20;
+        --font-ratio-min: 1.2;
+        --font-ratio-max: 1.33;
+        --font-width-min: 375;
+        --font-width-max: 1500;
+    }
+
+    .grid-wrapper {
+        /* Scoped container styles instead of global body */
+        color-scheme: light dark;
+        overflow-x: hidden;
+        display: grid;
+        place-items: center;
+        min-height: 100%;
+        width: 100dvw;
+        font-family: 'SF Pro Text', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+        position: relative;
+        isolation: isolate;
+    }
+
+    /* The background grid pattern */
+
+}

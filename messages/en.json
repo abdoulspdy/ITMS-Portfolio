@@ -1,0 +1,115 @@
+{
+  "Index": {
+    "logo": "ITMS",
+    "subtitle": "Fada Mohammed Hila Al Otaibi Est.",
+    "boilerplateName": "Integrated Terminal Management System",
+    "title": "Powering Terminal Operations with ITMS",
+    "description": "ITMS (Integrated Terminal Management System) is a comprehensive platform managing operations across container terminals, transportation, and logistics.",
+    "hero": "Home",
+    "about": "Why Choose Us",
+    "currentcust": "Our Current Customers.",
+    "services": {
+      "title": "Our Services",
+      "software": {
+        "title": "Software Solutions",
+        "portLogisticsApp": "Port & Logistics Management Application",
+        "portLogisticsAppDescription": "Advanced software for managing port operations, including container tracking, scheduling, and logistics coordination.",
+        "shippingApp": "Shipping NVOCC SaudiEO (Fasah) Application",
+        "shippingAppDescription": "A specialized app for non-vessel operating common carriers, ensuring seamless shipping operations in Saudi Arabia.",
+        "customWebDev": "Custom Web Development",
+        "customWebDevDescription": "Tailored web applications to meet your business needs, from e-commerce to enterprise solutions.",
+        "customMobileDev": "Custom Mobile App Development",
+        "customMobileDevDescription": "Bespoke mobile apps for iOS and Android, designed for performance and user experience.",
+        "inventoryManagement": "Inventory Management System",
+        "inventoryManagementDescription": "A comprehensive system to track and manage inventory across multiple locations.",
+        "vesselTracking": "Vessel Tracking Software",
+        "vesselTrackingDescription": "Real-time tracking of vessels to optimize shipping routes and schedules.",
+        "warehouseAutomation": "Warehouse Automation Software",
+        "warehouseAutomationDescription": "Automate warehouse operations with smart software for picking, packing, and shipping.",
+        "freightForwarding": "Freight Forwarding Platform",
+        "freightForwardingDescription": "A platform to manage freight forwarding operations, including documentation and tracking.",
+        "supplyChainAnalytics": "Supply Chain Analytics Tool",
+        "supplyChainAnalyticsDescription": "Analyze supply chain data to improve efficiency and reduce costs."
+      },
+      "hardware": {
+        "title": "Hardware & Networking",
+        "barcodePrinters": "Barcode & Thermal Printer Services",
+        "barcodePrintersDescription": "We provide sales and services for all barcode and thermal printers, including Zebra, Epson, Bixolon, and more. Services include thermal printing solutions (direct thermal and thermal transfer), label customization, maintenance and repairs, software integration support, consumables management, and training to ensure efficiency and accuracy in inventory and logistics management.",
+        "idCardPrinters": "PVC ID Card Printer Services",
+        "idCardPrintersDescription": "We offer sales and services for all ID card printers, including Evolis, Zebra, ID Smart, Fargo, and more. Services include printing single or dual-sided cards with variable data (photos, names, barcodes, RFID chips), customization, maintenance, integration with attendance or access control systems, consumables supply, and training to produce secure and professional ID cards.",
+        "networkPrinters": "Installation of New Printers, Plotters & Photocopiers",
+        "networkPrintersDescription": "We offer installation services for new network printers, plotters, and photocopiers to ensure seamless operation. Services include assessing requirements, physical installation, configuring IP addresses, installing drivers, integrating with existing systems, testing performance, setting up user permissions, and providing training to enhance efficiency and productivity.",
+        "photocopiers": "Photocopiers",
+        "photocopiersDescription": "Reliable photocopiers for high-volume document reproduction.",
+        "networking": "Network IP Troubleshooting",
+        "networkingDescription": "We provide network IP troubleshooting services to ensure seamless connectivity between devices. Services include verifying physical connections, checking IP configurations, testing connectivity, resolving IP conflicts, resetting network settings, testing DNS settings, and optimizing network performance for stability and efficiency.",
+        "infrastructure": "Dell Server Assembling & Configuration",
+        "infrastructureDescription": "We provide Dell server assembling and configuration services to ensure optimal performance and scalability. Services include selecting the appropriate model, installing components (CPUs, RAM, storage drives, RAID controllers), updating firmware, configuring RAID, installing operating systems, setting up networks, deploying applications, and testing for stability and efficiency.",
+        "upsInstallation": "Server UPS Power Supply Installation",
+        "upsInstallationDescription": "We offer server UPS (Uninterruptible Power Supply) installation services to ensure continuous operation and protect data from power outages. Services include selecting the appropriate UPS, electrical connections, integration with monitoring software, testing, and maintenance planning for reliability.",
+        "rfidReaders": "RFID Readers",
+        "rfidReadersDescription": "Advanced RFID readers for tracking assets and inventory in real-time.",
+        "portScanners": "Port Scanners",
+        "portScannersDescription": "High-speed scanners for port operations, ensuring accurate cargo documentation.",
+        "logisticsTerminals": "Logistics Terminals",
+        "logisticsTerminalsDescription": "Rugged terminals for logistics operations, designed for harsh environments."
+      }
+    },
+    "carousel": {
+      "software": [
+        {
+          "title": "Storage and Transportation Terminal",
+          "category": "Software Solutions",
+          "content": "We provide complete terminal management, including cargo booking, tracking, inventory, revenue, truck and driver coordination, and automated reporting to streamline your operations efficiently."
+        },
+        {
+          "title": "Lines Terminal",
+          "category": "Software Solutions",
+          "content": "Streamlines line terminal operations with features like gate-in/out EIR, containa. tracking, repair management, and automated EDI reporting for enhanced efficiency and visibility."
+        },
+        {
+          "title": "SaudiEDI Import, Export & Transshipment",
+          "category": "Software Solutions",
+          "content": "Enables efficient digital handling of import, export, and transshipment operations, including B/L processing, ERI, and EDI file uploads for seamless compliance."
+        },
+        {
+          "title": "ISO Tank Storage and Maintenance",
+          "category": "Software Solutions",
+          "content": "Comprehensive ISO tank storage and maintenance ensuring safety, cleanliness, and operational efficiency for every container."
+        }
+      ]
+    },
+    "dummyContentTitle": "Mohsin here",
+    "contact": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "aboutDescription": "With over 30 years of domain expertise, we’re an Indian-based company offering budget-friendly solutions, 24/7 customer support, and free customization—ensuring reliable service tailored just for you.",
+    "currentcustDesp": "For over a decade, top logistics and terminal service companies have trusted our ITMS application to streamline operations and drive long-term success.",
+    "ourMission": "Our Mission",
+    "missionDescription": "Our mission is to revolutionize the port and logistics industry by providing state-of-the-art software and hardware solutions, ensuring efficiency, reliability, and scalability for our clients worldwide.",
+    "phone": "+966 50 765 4847",
+    "email": "abdouls@hotmail.com",
+    "address": "Address",
+    "sendMessage": "Send Us a Message",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submit": "Submit",
+    "selectLanguage": "Select Language",
+    "chooseLanguagePrompt": "Choose your preferred language to continue.",
+    "close": "Close",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again.",
+    "invalid": "Please fill in all fields correctly."
+  },
+  "Footer": {
+    "copyright": "© 2025 Burj Al Najoom Technology. All rights reserved."
+  },
+  "Metadata": {
+    "title": "Burj Al Najoom Technology - Professional ID Card Printer and Barcode Label Printer Services.  صيانة الطابعة.",
+    "description": "Burj Al Najoom Technology offers innovative software and hardware solutions for port and logistics management, with support for multilingual operations and modern UI.",
+    "keywords": "port management, logistics software, hardware solutions, barcode printers, ID card printers, networking, server installation, Jeddah, technology agency"
+  }
+}
